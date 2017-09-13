@@ -1,0 +1,21 @@
+{
+  "name": "p1",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "marcus <marcus@snapzio.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/awesomemarcus/p1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
