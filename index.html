@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
     <!--  endinject -->
 
+    <link rel="stylesheet" href="./public/css/animate.css">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
   </head>
@@ -40,9 +42,9 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Lorem ipsum dolor sit amet.</h1>
+          <h1 id="homeHeading" class="wow zoomIn">Lorem ipsum dolor sit amet.</h1>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorum, id harum natus in ipsa aspernatur voluptatum odio illum facere quam nam perspiciatis officiis, amet ad quisquam vitae pariatur maxime!</p>
+          <p class="wow fadeInDown" data-wow-delay="1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorum, id harum natus in ipsa aspernatur voluptatum odio illum facere quam nam perspiciatis officiis, amet ad quisquam vitae pariatur maxime!</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
@@ -120,7 +122,7 @@
           </div>
           <div class="col-lg-12">
           <br>
-            <div class="row py-4">
+            <div class="row py-4 wow fadeInUp">
               <div class="col-lg-6">
                 <h5><strong>PUBLIC MARKETING</strong></h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
@@ -130,7 +132,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
               </div>
             </div>
-            <div class="row py-4">
+            <div class="row py-4 wow fadeInUp">
               <div class="col-lg-6">
                 <h5><strong>INTERNET BASED MARKETING</strong></h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
@@ -140,7 +142,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
               </div>
             </div>
-            <div class="row py-4">
+            <div class="row py-4 wow fadeInUp">
               <div class="col-lg-6">
                 <h5><strong>BOOK VIDEO</strong></h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
@@ -150,7 +152,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
               </div>
             </div>
-            <div class="row py-4">
+            <div class="row py-4 wow fadeInUp">
               <div class="col-lg-6">
                 <h5><strong>PRINT ADVERTISING</strong></h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam praesentium tempore magnam dignissimos repellendus rem tempora deleniti rerum? Iusto, neque.</p>
@@ -261,8 +263,13 @@
     <script src="./assets/jquery-easing/jquery.easing.min.js"></script>
     <script src="./assets/scrollreveal/scrollreveal.min.js"></script>
     <script src="./assets/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/wow/wow.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="./assets/js/creative.min.js"></script>
+
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
