@@ -311,10 +311,17 @@ header.masthead {
   padding-left: 0; }
 
 #packages {
-  background-image: url("./../../assets/img/bg-1.jpg"); }
+  background-image: url("./../../assets/img/bg-1.jpg");
+  width: 100%; }
 
 #services {
   background-image: url("./../../assets/img/bg-2.jpg");
+  color: #fff;
+  width: 100%; }
+
+footer {
+  background-image: url("./../../assets/img/bg-3.jpg");
+  width: 100%;
   color: #fff; }
 
 /*# sourceMappingURL=maps/main.css.map */
