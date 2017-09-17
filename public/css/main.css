@@ -324,9 +324,17 @@ footer {
   width: 100%;
   color: #fff; }
 
+.carousel-item div {
+  color: #fff; }
+  .carousel-item div .container {
+    position: relative;
+    text-align: center; }
+
 .slick-item {
   padding: 100px 20px;
-  min-height: 350px !important; }
+  min-height: 400px !important; }
+  .slick-item .bg-black-t {
+    color: #fff !important; }
 
 .slick-1 {
   background-image: url("./../../assets/img/bg-4.jpg"); }

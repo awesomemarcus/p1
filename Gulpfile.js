@@ -3,7 +3,6 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var inject = require('gulp-inject');
 var wiredep = require('wiredep').stream;
-var livereload = require('gulp-livereload');
 
 gulp.task('sass', function() {
   // var injectAppFiles = gulp.src('public/sass/styles/*.scss', {read: false});
@@ -39,7 +38,7 @@ gulp.task('sass', function() {
 
 gulp.task('inject', function() {
   var injectFiles = gulp.src(['assets/bootstrap/css/bootstrap.min.css', 'public/css/main.css', 'assets/magnific-popup, magnific-popup.css']);
-  
+
   gulp.src('index.html')
       .pipe(inject(injectFiles))
       .pipe(gulp.dest('./'));

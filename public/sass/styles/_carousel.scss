@@ -1,6 +1,19 @@
+.carousel-item div {
+	color: #fff;
+
+	.container {
+		position: relative;
+		text-align: center;
+	}
+}
+
 .slick-item {
 	padding: 100px 20px;
-	min-height: 350px !important;
+	min-height: 400px !important;
+
+	.bg-black-t {
+		color: #fff !important;
+	}
 }
 
 .slick-1 {
