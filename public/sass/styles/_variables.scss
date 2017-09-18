@@ -15,31 +15,31 @@ $gray-lighter: lighten($gray-base, 93.5%) !default;
 // Bootstrap Button Variant
 @mixin button-variant($color, $background, $border) {
   color: $color;
-  border-color: $border;
-  background-color: $background;
+  background: none;
+  border: 2px solid #fff !important;
   &.focus,
   &:focus {
-    color: $color;
-    border-color: darken($border, 25%);
-    background-color: darken($background, 10%);
+    color: #000;
+    background: #fff;
+    border: 2px solid #fff !important;
   }
   &:hover {
-    color: $color;
-    border-color: darken($border, 12%);
-    background-color: darken($background, 10%);
+    color: #000;
+    background: #fff;
+    border: 2px solid #fff !important;
   }
   &.active,
   &:active,
   .open > &.dropdown-toggle {
     color: $color;
-    border-color: darken($border, 12%);
-    background-color: darken($background, 10%);
+    background: none;
+    border: 2px solid #fff !important;
     &.focus,
     &:focus,
     &:hover {
       color: $color;
-      border-color: darken($border, 25%);
-      background-color: darken($background, 17%);
+      background: none;
+      border: 2px solid #fff !important;
     }
   }
   &.active,
@@ -102,7 +102,6 @@ $gray-lighter: lighten($gray-base, 93.5%) !default;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 300px;
   @include sans-serif-font;
 }
 

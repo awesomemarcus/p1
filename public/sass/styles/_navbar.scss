@@ -5,6 +5,9 @@
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
+    img {
+      width: 100px;
+    }
     font-weight: 700;
     text-transform: uppercase;
     color: $theme-primary;
@@ -21,6 +24,7 @@
     color: $gray-darker;
   }
   .navbar-nav {
+
     > li.nav-item {
        > a.nav-link:focus,
       > a.nav-link {
