@@ -290,10 +290,10 @@ header.about {
   background-image: url("./../../assets/img/about-us.jpg"); }
 
 header.book-events {
-  background-image: url("./../../assets/img/book-events-1.jpg"); }
+  background-image: url("./../../assets/img/book-events-cover.jpg"); }
 
 header.book-video {
-  background-image: url("./../../assets/img/book-video-covers.jpg"); }
+  background-image: url("./../../assets/img/book-video-cover.jpg"); }
 
 header.book-reviews {
   background-image: url("./../../assets/img/book-reviews-cover.jpg"); }
@@ -305,7 +305,7 @@ header.book-to-screen {
   background-image: url("./../../assets/img/hollywood-cover.jpg"); }
 
 header.internet-based-marketing {
-  background-image: url("./../../assets/img/internet-marketing-cover.jpg"); }
+  background-image: url("./../../assets/img/internet-marketing-cover.jpeg"); }
 
 header.print-advertising {
   background-image: url("./../../assets/img/print-advertising-cover.jpeg"); }
@@ -379,7 +379,7 @@ footer {
   background-image: url("./../../assets/img/bg-6.jpg"); }
 
 .book-events-1 {
-  background-image: url("./../../assets/img/book-events-1.jpg"); }
+  background-image: url("./../../assets/img/book-events-1.jpeg"); }
 
 .book-events-2 {
   background-image: url("./../../assets/img/book-events-2.jpg"); }
@@ -464,5 +464,8 @@ footer {
 
 .publicity-marketing-5 {
   background-image: url("./../../assets/img/publicity-marketing-5.jpg"); }
+
+.publicity-marketing-5 {
+  background-image: url("./../../assets/img/publicity-marketing-6.jpg"); }
 
 /*# sourceMappingURL=maps/main.css.map */
