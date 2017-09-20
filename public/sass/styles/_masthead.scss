@@ -5,7 +5,6 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('./../../assets/img/header.jpg');
   background-position: center;
   @include background-cover;
   .header-content {
@@ -58,4 +57,50 @@ header.masthead {
       }
     }
   }
+}
+
+header {
+  &.index {
+    background-image: url('./../../assets/img/header.jpg');
+  }
+
+  &.about {
+    background-image: url('./../../assets/img/about-us.jpg');
+  }
+
+  &.book-events {
+    background-image: url('./../../assets/img/book-events-1.jpg');
+  }
+
+  &.book-video {
+    background-image: url('./../../assets/img/book-video-covers.jpg');
+  }
+
+  &.book-reviews {
+    background-image: url('./../../assets/img/book-reviews-cover.jpg');
+  }
+  &.contact {
+    background-image: url('./../../assets/img/contact-us.jpg');
+  }
+
+  &.book-to-screen {
+    background-image: url('./../../assets/img/hollywood-cover.jpg');
+  }
+
+  &.internet-based-marketing {
+    background-image: url('./../../assets/img/internet-marketing-cover.jpg');
+  }
+
+  &.print-advertising {
+    background-image: url('./../../assets/img/print-advertising-cover.jpeg');
+  }
+
+  &.publicity-marketing {
+    background-image: url('./../../assets/img/publicity-marketing-cover.jpg');
+  }
+
+  &.publising-package {
+    background-image: url('./../../assets/img/publishing-package-cover.jpg');
+  }
+
 }
