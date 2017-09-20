@@ -340,6 +340,9 @@ header.publising-package {
 .bg-white-t {
   background-color: rgba(255, 255, 255, 0.85); }
 
+.color-white {
+  color: #fff; }
+
 .main-list {
   padding-left: 0; }
 
