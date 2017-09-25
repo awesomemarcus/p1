@@ -289,35 +289,55 @@ header .index {
   transition: all 1s;
   animation: zoom-out 3s 1; }
 
-header.about {
-  background-image: url("./../../assets/img/about-us.jpg"); }
+header .about {
+  background-image: url("./../../assets/img/about-us.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.book-events {
-  background-image: url("./../../assets/img/book-events-cover.jpg"); }
+header .book-events {
+  background-image: url("./../../assets/img/book-events-cover.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.book-video {
-  background-image: url("./../../assets/img/book-video-cover.jpg"); }
+header .book-video {
+  background-image: url("./../../assets/img/book-video-cover.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.book-reviews {
-  background-image: url("./../../assets/img/book-reviews-cover.jpg"); }
+header .book-reviews {
+  background-image: url("./../../assets/img/book-reviews-cover.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.contact {
-  background-image: url("./../../assets/img/contact-us.jpg"); }
+header .contact {
+  background-image: url("./../../assets/img/contact-us.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.book-to-screen {
-  background-image: url("./../../assets/img/hollywood-cover.jpg"); }
+header .book-to-screen {
+  background-image: url("./../../assets/img/hollywood-cover.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.internet-based-marketing {
-  background-image: url("./../../assets/img/internet-marketing-cover.jpeg"); }
+header .internet-based-marketing {
+  background-image: url("./../../assets/img/internet-marketing-cover.jpeg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.print-advertising {
-  background-image: url("./../../assets/img/print-advertising-cover.jpeg"); }
+header .print-advertising {
+  background-image: url("./../../assets/img/print-advertising-cover.jpeg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.publicity-marketing {
-  background-image: url("./../../assets/img/publicity-marketing-cover.jpg"); }
+header .publicity-marketing {
+  background-image: url("./../../assets/img/publicity-marketing-cover.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
-header.publising-package {
-  background-image: url("./../../assets/img/publishing-package-cover.jpg"); }
+header .publising-package {
+  background-image: url("./../../assets/img/publishing-package-cover.jpg");
+  transition: all 1s;
+  animation: zoom-out 3s 1; }
 
 @keyframes zoom-out {
   0% {
